@@ -16,7 +16,7 @@ const RINKEBY_RPC_URL =
   "https://eth-rinkeby.alchemyapi.io/v2/your-api-key"
 const PRIVATE_KEY =
   process.env.PRIVATE_KEY ||
-  "0x11ee3108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a"
+  "2325bd03606428369a7d5047df691fb4d9320f1d0b66d6da21137442022170e6"
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 
 module.exports = {
@@ -26,7 +26,7 @@ module.exports = {
     rinkeby: {
       url: RINKEBY_RPC_URL,
       accounts: [PRIVATE_KEY],
-      chainId: 4,
+      chainId: 5,
     },
     localhost: {
       url: "http://localhost:8545",
